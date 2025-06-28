@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 
 export default function HomeView() {
   return (
-    <main className="">
+    <main className="bg-black">
       <div id="home">
         <Navbar />
         <Welcome />
