@@ -49,7 +49,7 @@ export default function Navbar() {
           } transition-all duration-200`}
         ></span>
       </div>
-
+{/* 
       <div
         className={`flex md:hidden container flex-col gap-4 text-center absolute top-[-300px] justify-center align-text-center bg-white p-10 text-black rounded-lg ${
           isMenuOpen ? "-translate-y-[-424px]" : ""
@@ -67,7 +67,7 @@ export default function Navbar() {
         <span className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Contact
         </span>
-      </div>
+      </div> */}
     </div>
   );
 }
