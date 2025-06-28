@@ -8,7 +8,7 @@ export default function Welcome() {
         <div>
           <div className="font-bold ">
             <h1>
-              <span className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl  animate-fade animate-once animate-delay-100">
+              <span className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl text-white animate-fade animate-once animate-delay-100">
                 Hi, I&apos;m Restu
               </span>
               <span className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-8xl animate-bounce inline-block origin-[70%_70%] [animation-delay:0ms] ">
@@ -19,7 +19,7 @@ export default function Welcome() {
                   A Geoinformatician{" "}
                 </p>
               </span>
-              <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl">
+              <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white">
                 <p className="animate-fade-right animate-once animate-delay-500 animate-ease-in-out">
                   focus on my skills in
                 </p>
@@ -30,7 +30,7 @@ export default function Welcome() {
                 </p>
               </span>
               <span>
-                <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl ">
+                <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white ">
                   <p className="animate-fade-right animate-once animate-delay-500 animate-ease-in-out">
                     and
                   </p>
