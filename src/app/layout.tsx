@@ -1,33 +1,58 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+"use client";
+
+import { Albert_Sans } from "next/font/google";
 import "./globals.css";
+// import { usePathname } from "next/navigation";
+// import gsap from "gsap";
+// import { ScrollSmoother } from "gsap/dist/ScrollSmoother";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+// import { Inter } from "next/font/google";
+// import { useGSAP } from "@gsap/react";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const AlbertSans = Albert_Sans({
+  variable: "--font-albert-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
-export const metadata: Metadata = {
-  title: "Restu Aka Personal Website",
-  description: "Restu Aka Personal Website",
-};
+// if (typeof window !== "undefined") {
+//   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+// }
 
-export default function RootLayout({
+// const inter = Inter({ subsets: ["latin"] });
+
+export default function RootLayout( {
+  // const pathname = usePathname();
+
+  // useGSAP(
+  //   () => {
+  //     ScrollSmoother.create({
+  //       smooth: 2,
+  //       effects: true,
+  //     });
+  //   },
+  //   {
+  //     dependencies: [pathname],
+  //     revertOnUpdate: true,
+  //   }
+  // );
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-black">
+    <html
+      lang="en"
+      className="dark"
+      suppressHydrationWarning
+      id="smooth-wrapper"
+    >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
+        className={`${AlbertSans.className}  antialiased`}
+        id="smooth-wrapper"
       >
-        {children}
+        <div id="smooth-content">{children}</div>
       </body>
     </html>
   );
