@@ -26,7 +26,7 @@ export default function Contact() {
           >
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">LET'S CONNECT</h1>
-              <p className="mb-5">GET IN TOUCH HERE GUYS!</p>
+              <p className="mb-5">GET IN TOUCH HERE, GUYS!</p>
               <div className="flex flex-row justify-center items-center m-5 pt-10">
                 <a
                   href="https://github.com/restuak"
