@@ -10,7 +10,7 @@ Feel free to clone this repo
 1. Clone Repository:
 
 ```
-git clone https://github.com/restuak/homepage-prsnl-v2.git
+git clone https://github.com/restuak/homepage-prsnl-next.git
 ```
 2. Install Dependencies:
 
