@@ -1,0 +1,198 @@
+export const projectDetail = [
+  {
+    id: "1",
+    title: "Web App GIS Road Analyst in Java",
+    img: "/prj/gis1.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis5.webp",
+      "/prj/gis3.webp",
+      "/prj/gis2.webp",
+      "/prj/gis1.webp",
+    ],
+  },
+  {
+    id: "2",
+    title: "Web-GIS Landslide in Central Java",
+    img: "/prj/gis4.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis4.webp",
+    ],
+  },
+  {
+    id: "3",
+    title: "Web GIS Road Analyst in Kab. Sleman",
+    img: "/prj/gis5.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis2.webp",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis4.webp",
+    ],
+  },
+  {
+    id: "4",
+    title: "Web App GIS River Analyst in Indonesia",
+    img: "/prj/gis3.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis4.webp",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis5.webp",
+    ],
+  },
+  {
+    id: "5",
+    title: "Web App GIS Analyst for Banking",
+    img: "/prj/gis2.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis3.webp",
+      "/prj/gis4.webp",
+    ],
+  },
+  {
+    id: "6",
+    title: "Web-GIS Landslide in Central Java",
+    img: "/prj/gis4.webp",
+    tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+    desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+    features: [
+      "View and explore road networks on an interactive map with zoom, pan, and click-to-view road attributes.",
+      "Analyze and visualize road conditions (e.g., good, moderate, damaged) using color-coded layers.",
+      "Add, edit, or delete road data through a web-based form interface, including spatial data uploads.",
+      "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
+    ],
+    images: [
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis4.webp",
+    ],
+  },
+];
+
+// export const projectCard = [
+//   {
+//     id: "1",
+//     title: "1Web App GIS Road Analyst in Java",
+//     img: "../restuaka.webp",
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//   },
+//   {
+//     id: "2",
+//     title: "1Web App GIS Road Analyst in Java",
+//     img: "../restuaka.webp",
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//   },
+//   {
+//     id: "3",
+//     title: "1Web App GIS Road Analyst in Java",
+//     img: "/hrtools/1.png",
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//   },
+//   {
+//     id: "4",
+//     title: "1Web App GIS Road Analyst in Java",
+//     img: "/hrtools/1.png",
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//   },
+// ];
+
+// export const projectDetail = [
+//   {
+//     id: "1",
+//     title: "1Web App GIS Road Analyst in Java",
+//     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+//     features: [
+//       "Fixed Bug Create, Read, Update and Delete Data Employee, Siswa, and Mata Pelajaran.",
+//       "Create, Read, Update and Delete Employee Recruitment.",
+//       "Create, Read, Update and Delete Employee Performance appraisal.",
+//       "Attendance system using Leaflet map.",
+//     ],
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//     img: ["/restuaka.webp", "/restuaka.webp", "/restuaka.webp"],
+//   },
+//   {
+//     id: "2",
+//     title: "2Web App GIS Road Analyst in Java",
+//     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+//     features: [
+//       "Fixed Bug Create, Read, Update and Delete Data Employee, Siswa, and Mata Pelajaran.",
+//       "Create, Read, Update and Delete Employee Recruitment.",
+//       "Create, Read, Update and Delete Employee Performance appraisal.",
+//       "Attendance system using Leaflet map.",
+//     ],
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//     img: ["/restuaka.webp", "/restuaka.webp", "/restuaka.webp"],
+//   },
+//   {
+//     id: "3",
+//     title: "3Web App GIS Road Analyst in Java",
+//     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+//     features: [
+//       "Fixed Bug Create, Read, Update and Delete Data Employee, Siswa, and Mata Pelajaran.",
+//       "Create, Read, Update and Delete Employee Recruitment.",
+//       "Create, Read, Update and Delete Employee Performance appraisal.",
+//       "Attendance system using Leaflet map.",
+//     ],
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//     img: ["/hrtools/1.png", "/hrtools/2.png", "/hrtools/3.png"],
+//   },
+//   {
+//     id: "4",
+//     title: "4Web App GIS Road Analyst in Java",
+//     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
+//     features: [
+//       "Fixed Bug Create, Read, Update and Delete Data Employee, Siswa, and Mata Pelajaran.",
+//       "Create, Read, Update and Delete Employee Recruitment.",
+//       "Create, Read, Update and Delete Employee Performance appraisal.",
+//       "Attendance system using Leaflet map.",
+//     ],
+//     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
+//     img: ["/hrtools/1.png", "/hrtools/2.png", "/hrtools/3.png"],
+//   },
+// ];
