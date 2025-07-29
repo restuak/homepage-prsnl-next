@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-motion;
 export default function FooterIn() {
   return (
     <main id="contact" className="pb-20 ">

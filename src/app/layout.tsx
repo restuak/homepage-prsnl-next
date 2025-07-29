@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Restu Aka's Personal Website ",
   description:
-    "Personal Portofolio Restu Aka a Geoinformatics Engineering and passion with Fullstack Developer Website and GIS Web App Map",
+    "Personal Portofolio Restu Aka a Geoinformatics Enginnerin and passion with Fullstack Developer Website and GIS Web App Map",
 };
 
 const AlbertSans = Albert_Sans({

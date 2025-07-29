@@ -1,25 +1,36 @@
-"use client"
+"use client";
 import { BsPersonWorkspace } from "react-icons/bs";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { motion } from "framer-motion";
 
 export default function ExpTimeline() {
   return (
     <section className="bg-[#000000] ">
       <div className="h-100% max-w-screen-xl pt-1 mx-auto">
         <div className="container p-5 flex flex-col items-center pt-[5%]">
-          <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-200">
+          <motion.p
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="p-10 pb-5 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-200"
+          >
             WORKS
-          </p>
-          <p className=" m-6 mt-0 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-600">
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: -30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className=" m-6 mt-0 text-[17px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-300"
+          >
             I have been working in the field of Geodetic & Geomatics Engineer in
             specialist Geoinformatics for several years. Now, I focusing on
             Full-Stack Development and Web Map Application based Geographic
             Information System (GIS) Development
-          </p>
+          </motion.p>
           <div className="h-max w-[100%]">
             <VerticalTimeline>
               <VerticalTimelineElement

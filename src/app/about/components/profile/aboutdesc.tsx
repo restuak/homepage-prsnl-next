@@ -10,7 +10,7 @@ export default function AboutDesc() {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="pt-8 pb-5 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-300"
+            className="pt-8 pb-5 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-200"
           >
             LITTLE BIT OF ME
           </motion.p>
@@ -19,7 +19,7 @@ export default function AboutDesc() {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="pt-0 pl-9 pr-9 pb-0 mx-auto text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center-safe text-zinc-500 "
+            className="pt-0 pl-9 pr-9 pb-0 mx-auto text-[17px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center-safe text-zinc-400 "
           >
             <p className="pb-3 text-justify lg:text-center xl:text-center">
               I’m a Geodetic & Geomatics Engineer, specialist Geoinformatics.

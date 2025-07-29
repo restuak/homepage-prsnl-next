@@ -140,6 +140,7 @@ const GridDistortion: React.FC<GridDistortionProps> = ({
       vY: 0,
     };
 
+    // CURSOR
     const handleMouseMove = (e: MouseEvent) => {
       const rect = container.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width;

@@ -18,14 +18,13 @@ export default function ScrollUp() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const ScrollUp = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
 
   return (
     tombolScrollUp && (
